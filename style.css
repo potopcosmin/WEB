@@ -68,12 +68,12 @@
         bottom:0;
         left:0;
         z-index :2;
-        width:50%;
+        width:30%;
         height:auto;
     }
   
     .site{
-        height:50px;
+        height:auto;
         position: relative;
         width: 200px;
         left:40%;
@@ -81,11 +81,10 @@
         top:20%;
         margin:20px;
         text-align: center;
-
     }
     .newsite{
     
-        height:0px;
+        height:auto;
         position: relative;
         max-width: 200px;
         left:45%;
