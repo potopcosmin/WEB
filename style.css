@@ -40,7 +40,7 @@
     .dropbtn {
         background-color: #04AA6D;
         color: white;
-        padding: 16px;
+        padding:30%;
         font-size: 16px;
         border: none;
         border-radius: 25px;
@@ -75,21 +75,11 @@
     .site{
         height:auto;
         position: relative;
-        width: 200px;
-        left:40%;
+        width: 30%;
+        left:30%;
         right:40%;
         top:20%;
-        margin:20px;
-        text-align: center;
-    }
-    .newsite{
-    
-        height:auto;
-        position: relative;
-        max-width: 200px;
-        left:45%;
-        right:40%;
-        top:20%;
+        margin:10%;
         text-align: center;
     }
     .link1{
@@ -99,7 +89,7 @@
         text-decoration: none;
         background-color: #34C292;
         color: white;
-        padding: 10px 12% 12px 10%;
+        padding: 10% 12% 12% 10%;
         border-radius: 25px;
 
     }
