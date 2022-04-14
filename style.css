@@ -1,0 +1,154 @@
+
+    body {
+        padding: 0%;
+        margin: 0%;
+    }
+   
+
+    .pattern {
+        position: relative;
+        background-color: rgba(255, 255, 255, 1);
+        background-image: linear-gradient(315deg,
+                        #ffffff 0%, #ffffff 74%);
+                        z-index:1 ;
+    }
+      
+    .pattern:before {
+        content: "";
+        position: fixed;
+        display: block;
+        bottom: 0%;
+        left: 0;
+        width: 100%;
+        height: 20%;
+        background: url(wave.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+    .logo{
+        position:fixed;
+        
+        bottom:0;
+        left:0;
+        z-index :2;
+        width:40%;
+        height:auto;
+    }
+  
+    .site{
+        height:100px;
+        position: relative;
+        width: 200px;
+        left:40%;
+        right:40%;
+        top:20%;
+        margin:20px;
+
+        text-align: center;
+
+    }
+    .newsite{
+    
+        height:100px;
+        position: relative;
+        max-width: 200px;
+        left:40%;
+        right:40%;
+        top:20%;
+        margin:20px;
+        text-align: center;
+    }
+    .link1{
+        position:relative;
+        top:40%;
+        font: bold 11px Arial;
+        text-decoration: none;
+        background-color: #34C292;
+        color: white;
+        padding: 30px 30% 32px 30%;
+        border-radius: 25px;
+
+    }
+    .link2{
+        position:relative;
+        top:40%;
+        font: bold 11px Arial;
+        text-decoration: none;
+        background-color: white;
+        color: #03DABB;
+        padding: 30px 30% 32px 30%;
+        border-radius: 25px;
+        border-top: 1px solid #00BFA6;
+        border-right: 1px solid #00BFA6;
+        border-bottom: 1px solid #00BFA6;
+        border-left: 1px solid #00BFA6;
+
+    }
+/* */
+    @media  screen and (min-width:768px) {
+      
+        .pattern {
+            position: relative;
+            background-color: rgba(255, 255, 255, 1);
+            background-image: linear-gradient(315deg,
+                            #ffffff 0%, #ffffff 74%);
+                            z-index:1 ;
+        }
+          
+        .pattern:before {
+            content: "";
+            position: fixed;
+            bottom:0;
+            left:0;
+            width: 100%;
+            height: 30%;
+            background: url(wave.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .logo{
+            position:fixed;
+            
+            bottom:0;
+            left:0;
+            z-index :2;
+            width:40%;
+            height:auto;
+        }
+        
+    }
+  @media  screen and (min-width:1025px) {
+      
+    .pattern {
+        position: relative;
+        background-color: rgba(255, 255, 255, 1);
+        background-image: linear-gradient(315deg,
+                        #ffffff 0%, #ffffff 74%);
+                        z-index:1 ;
+    }
+      
+    .pattern:before {
+        content: "";
+        position: fixed;
+        bottom:0;
+        left:0;
+        width: 100%;
+        height: 40%;
+        background: url(wave.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .logo{
+        position:fixed;
+        
+        bottom:0;
+        left:0;
+        z-index :2;
+        width:40%;
+        height:auto;
+    }
+    
+}
+
+      
