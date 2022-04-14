@@ -81,9 +81,10 @@
         margin:8%;
         background-color: #34C292;
         text-decoration: none;
+        border:2px solid #34C292;
         border-radius: 25px;
         color: white;
-        border-color: #34C292
+
     }
 
     .site2{
@@ -95,6 +96,6 @@
     text-decoration: none;
     border-radius: 25px;
     color:#03DABB;
-    border-color: #00BFA6;
+    border:2px solid #00BFA6;
     }
 }
