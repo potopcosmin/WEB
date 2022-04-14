@@ -47,8 +47,8 @@
       }
       .dropdown {
           position: absolute;
-          top:5px;
-            display: inline-block;
+          top:1%;
+        display: inline-block;
       }
       .dropdown-content {
         display: none;
@@ -71,40 +71,30 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}   
-  
+  .elements{
+    text-align: center;
+  }
     .site{
-        height:auto;
-        position: relative;
+        box-sizing: content-box;
+        height:40px; 
         width: 30%;
-        left:10%;
-        right:40%;
-        top:20%;
-        margin:10%;
-        text-align: center;
-    }
-    .link1{
-        position:relative;
-        top:20%;
-        font: bold 11px Arial;
-        text-decoration: none;
+        margin:8%;
         background-color: #34C292;
-        color: white;
-        padding: 10% 12% 12% 10%;
-        border-radius: 25px;
-
-    }
-    .link2{
-        position:relative;
-        top:40%;
-        font: bold 11px Arial;
         text-decoration: none;
-        background-color: white;
-        color: #03DABB;
-        padding: 10px 10% 12px 10%;
         border-radius: 25px;
-        border-top: 1px solid #00BFA6;
-        border-right: 1px solid #00BFA6;
-        border-bottom: 1px solid #00BFA6;
-        border-left: 1px solid #00BFA6;
+        color: white;
+        border-color: #34C292
+    }
+
+    .site2{
+    box-sizing: content-box;
+    height:40px; 
+    width: 30%;
+    margin:8%;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    color:#03DABB;
+    border-color: #00BFA6;
     }
 }
