@@ -32,24 +32,24 @@
         width:50%;
         height:20%;
     }
+    .header{
+     text-align: left;
+    }
     .avatar{
-        display: inline-block;
+   
         height:auto;
         width:15%;
     }
     .dropbtn {
+        top:3.5%;
         background-color: #04AA6D;
+        height:auto;
         color: white;
-        padding:30%;
         font-size: 16px;
         border: none;
         border-radius: 25px;
       }
-      .dropdown {
-          position: absolute;
-          top:1%;
-        display: inline-block;
-      }
+  
       .dropdown-content {
         display: none;
         position: absolute;
@@ -75,10 +75,12 @@
     text-align: center;
   }
     .site{
-        box-sizing: content-box;
+        display: block;
         height:40px; 
         width: 30%;
         margin:8%;
+        margin-left: auto;
+        margin-right: auto;
         background-color: #34C292;
         text-decoration: none;
         border:2px solid #34C292;
@@ -88,10 +90,12 @@
     }
 
     .site2{
-    box-sizing: content-box;
+    display: block;
     height:40px; 
     width: 30%;
     margin:8%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
     text-decoration: none;
     border-radius: 25px;
