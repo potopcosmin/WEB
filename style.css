@@ -24,6 +24,14 @@
         background-size:cover;
         background-repeat: no-repeat;
     }
+    .logo{
+        position:fixed;
+        bottom:0;
+        left:0;
+        z-index :2;
+        width:20%;
+        height:30%;
+    }
     .avatar{
         display: inline-block;
         height:auto;
@@ -63,14 +71,6 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}   
-.logo{
-        position:fixed;
-        bottom:0;
-        left:0;
-        z-index :2;
-        width:20%;
-        height:auto;
-    }
   
     .site{
         height:auto;
