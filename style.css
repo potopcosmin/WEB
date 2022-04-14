@@ -62,14 +62,14 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}    .logo{
+.dropdown:hover .dropbtn {background-color: #3e8e41;}   
+.logo{
         position:fixed;
-        
         bottom:0;
         left:0;
         z-index :2;
         width:40%;
-        height:auto;
+        height:50%;
     }
   
     .site{
