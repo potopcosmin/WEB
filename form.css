@@ -53,7 +53,7 @@ input[type=radio] {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  justify-content: flex-start;
+
 }
 .camp{
   border:1px solid;
@@ -138,7 +138,7 @@ display:none;
 }
 
 
-@media screen and (max-width:768px)
+@media screen and (max-width:480px)
 {
  html{
       width:100%;
@@ -161,6 +161,9 @@ display:none;
       flex:1;
     }
     .content{
+
+      justify-content:center;
+      align-items: center;
       flex:3;
     }
   .dropdown{
@@ -180,6 +183,12 @@ display:none;
     width:80%;
 
   }
-  
+  .label{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+  }
 
 }
